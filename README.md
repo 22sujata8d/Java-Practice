@@ -13,8 +13,8 @@ This repository contains the practice codes of Java.
 ## Tasks
 - [ ] Deque
 - [ ] Sorting with Comparator
-- [ ] Priority Queue
-- [ ] Strings
+- [x] Priority Queue
+- [x] Strings
 - [ ] GitHub Workflow Integration
 - [ ] Unit Tests
 
