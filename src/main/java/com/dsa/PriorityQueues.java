@@ -44,13 +44,14 @@ public class PriorityQueues {
         System.out.println();
 
         // using customer comparator
-        PriorityQueue<Integer> numbers = new PriorityQueue<>(new CustomerComparator());
+        PriorityQueue<Integer> numbers = new PriorityQueue<>((num1, num2) -> Integer.compare(num2, num1));
         numbers.add(1);
         numbers.add(2);
         numbers.add(6);
         numbers.add(3);
 
         System.out.println(numbers);
+        System.out.println(numbers.peek());
     }
 }
 
