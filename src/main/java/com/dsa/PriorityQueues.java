@@ -60,12 +60,7 @@ class CustomerComparator implements Comparator<Integer> {
         int value = o1.compareTo(o2);
 
         // elements are sorted in reverse order
-        if (value > 0) {
-            return -1;
-        } else if (value < 0) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return Integer.compare(0, value);
     }
 }
+
